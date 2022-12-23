@@ -15,4 +15,4 @@ EXPOSE 8080
 EXPOSE 8090
 
 # start PocketBase
-CMD ["/pb/pocketbase", "serve", "--http=0.0.0.0:8080", "--https=0.0.0.0:8090"]
+CMD ["/pb/pocketbase", "serve", "--http=127.0.0.1:8080", "--https=127.0.0.1:8090"]
